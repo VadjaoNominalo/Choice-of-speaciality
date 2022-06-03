@@ -1,0 +1,461 @@
+$cl1: #e5017f;
+$cl2: #631b68;
+$bg: #e2dfdf;
+$white: white;
+$like: #98FF98;
+$dislike: #FFC0CB;
+$color: rgba(45, 42, 175, 0.986);
+$bg2: #e2dfdf74;
+$placecolor: rgb(230, 196, 9);
+
+.placecolor {
+    background: $placecolor;
+}
+.color {
+    color: $color;
+}
+.colorgreen {
+    color: $like;
+}
+.colorred {
+    color: $dislike;
+}
+.color1 {
+    color: $cl1;
+}
+.color2 {
+    color: $cl2;
+}
+section {
+    padding-bottom: 100px;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background: rgb(229,1,127);
+    background: linear-gradient(86deg, rgba(229,1,127,1) 0%, rgba(99,27,104,1) 100%);
+   h1 {
+       margin: 45px 0;
+   }
+}
+
+h2 {
+    font-size: 35px;
+}
+.speacialities {
+    background: $bg;
+     h3 {
+        font-weight: 500;
+        color: $white;
+        background: rgb(229,1,127);
+        background: linear-gradient(86deg, rgba(229,1,127,1) 0%, rgba(99,27,104,1) 100%);
+        //padding: 30px; 
+        height: 180px; // !!
+    }
+    .n1, .n3, .n6 {
+        padding: 55px 0;
+    }
+    .n2, .n4 {
+        padding: 70px 0;
+    }
+    .n5 {
+        padding: 40px 0;
+    }
+}
+a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+        color: $white
+    }
+}
+.like {
+    background: $like;
+    padding: 5px;
+}
+.dislike {
+    background: $dislike;
+    padding: 5px;
+}
+.required, .electives {
+    padding: 20px;
+    background: rgb(255,152,244);
+    background: radial-gradient(circle, rgba(255,152,244,1) 0%, rgba(94,59,139,1) 100%);
+}
+.result {
+    font-size: 30px;
+}
+.cst, .admin, .hardwareDevelopment, .final {
+    background: $bg2;
+}
+.informatics, .development, .business {
+    background: $bg;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background: rgb(229,1,127);
+    background: linear-gradient(86deg, rgba(229,1,127,1) 0%, rgba(99,27,104,1) 100%);
+}
+.home {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    &:hover {
+        color: black;
+    }
+}
+.final {
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .first {
+        margin-bottom: 50px;
+    }
+    .top {
+        h2 {
+            font-size: 20px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        .topdiv {
+            align-items: flex-start;
+            padding: 0;
+            height: 250px;
+        }
+        .place11 {
+            padding-top: 50%;
+            height: 250px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        .place2 {
+            padding-top: 40px;
+        }
+        .place22 {
+            padding-top: 35%;
+            height: 210px;
+            border-right: 1px solid black;
+        }
+        .place3 {
+            padding-top: 80px;
+        }
+        .place33 {
+            padding-top: 30%;
+            height: 170px;
+            border-right: 1px solid black;
+        }
+        .place4 {
+            padding-top: 120px;
+        }
+        .place44 {
+            padding-top: 20%;
+            height: 130px;
+            border-right: 1px solid black;
+        }
+        .place5 {
+            padding-top: 160px;
+        }
+        .place55 {
+            padding-top: 10%;
+            height: 90px;
+            border-right: 1px solid black;
+        }
+        .place6 {
+            padding-top: 200px;
+        }
+        .place66 {
+            height: 50px;
+            border-right: 1px solid black;
+        }
+    }
+    a {
+        color: black;
+    }
+}
+.award {
+    padding-left: 6%;
+    i {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 450px){
+    .award {
+        padding-left: 44%;
+        i {
+            font-size: 30px;
+        }
+    }
+    h2 {
+        font-size: 8vw;
+    }
+    .home {
+        top: 0;
+        left: 0;
+    }
+    .result {
+        font-size: 25px;
+    }
+    .final {
+        h3 {
+            font-size: 25px;
+        }
+        h4 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .first {
+            margin-bottom: 50px;
+        }
+        .top {
+            h2 {
+                font-size: 20px;
+                border: 1px solid black;
+            }
+            .topdiv {
+                padding: auto;
+                height: auto;
+            }
+            .place11 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place2 {
+                padding-top:0;
+            }
+            .place22 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place3 {
+                padding-top:0;
+            }
+            .place33 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place4 {
+                padding-top: 0;
+            }
+            .place44 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place5 {
+                padding-top: 0;
+            }
+            .place55 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place6 {
+                padding-top: 0;
+            }
+            .place66 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .award {
+        padding-left: 46%;
+        i {
+            font-size: 30px;
+        }
+    }
+    .speacialities {
+        h3 {
+            height: auto;
+        }
+        .n1, .n3, .n6 {
+            padding: 30px;
+        }
+        .n2, .n4 {
+            padding: 30px;
+        }
+        .n5 {
+            padding: 30px;
+        }
+    }
+    .final {
+        h3 {
+            font-size: 25px;
+        }
+        h4 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .first {
+            margin-bottom: 50px;
+        }
+        .top {
+            h2 {
+                font-size: 20px;
+                border: 1px solid black;
+            }
+            .topdiv {
+                padding: auto;
+                height: auto;
+            }
+            .place11 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place2 {
+                padding-top:0;
+            }
+            .place22 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place3 {
+                padding-top:0;
+            }
+            .place33 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place4 {
+                padding-top: 0;
+            }
+            .place44 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place5 {
+                padding-top: 0;
+            }
+            .place55 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place6 {
+                padding-top: 0;
+            }
+            .place66 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                height: auto;
+                border: 1px solid black;
+            }
+        }
+    }
+}
+@media only screen and(max-width: 1199px){
+    .award {
+        padding-left: 47%;
+        i {
+            font-size: 30px;
+        }
+    }
+    .final {
+        h3 {
+            font-size: 25px;
+        }
+        h4 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .first {
+            margin-bottom: 50px;
+        }
+        .top {
+            h2 {
+                font-size: 20px;
+                border: 1px solid black;
+            }
+            .topdiv {
+                padding: auto;
+                height: auto;
+            }
+            .place11 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place2 {
+                padding-top: 0;
+            }
+            .place22 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place3 {
+                padding-top:0;
+            }
+            .place33 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place4 {
+                padding-top: 0;
+            }
+            .place44 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place5 {
+                padding-top: 0;
+            }
+            .place55 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                height: auto;
+                border: 1px solid black;
+            }
+            .place6 {
+                padding-top: 0;
+            }
+            .place66 {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                height: auto;
+                border: 1px solid black;
+            }
+        }
+    }
+}
